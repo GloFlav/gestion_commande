@@ -26,10 +26,26 @@
 
 ## Description
 
-Consist of 3 components
-- API-Gateway
-- Payment-Service
-- Order-Service
+This application will act as client to received http request from client and send to microservices (order-service & payment-service).
+
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
 
 ## Support
 

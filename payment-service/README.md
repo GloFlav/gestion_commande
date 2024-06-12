@@ -26,10 +26,26 @@
 
 ## Description
 
-Consist of 3 components
-- API-Gateway
-- Payment-Service
-- Order-Service
+This payment-service microservice will served payment of order. It will return either the payment is confirmed or declined randomly.
+
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
 
 ## Support
 
