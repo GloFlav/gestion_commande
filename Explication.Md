@@ -5,10 +5,9 @@ On a:
 - Payment Service (port 3001)
 - API Gateway (port 3000)
 
-
 Le docker file pour creer et exposer le port de l'API Gateway
 ![alt text](<Screenshot 2024-06-15 at 19.58.14.png>)
-Expose le port 3000 et utilise les volumes pour stocker le node modules ainsi que l'application
+Expose le port 3000 et utilise les volumes pour stocker les modules Node.js ainsi que l'application.
 ![alt text](<Screenshot 2024-06-15 at 20.00.56.png>)
 
 ## Instanciation des Microservices dans l'API Gateway
